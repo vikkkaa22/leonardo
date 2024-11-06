@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    ;
+    font-size: 1em;
+    /*1rem = 0.8em = 16*0.8 = 12.8px*/
+}
+
+body {
+    background-color: rgb(151, 151, 130);
+    font-size: 15px;
+}
+
+header {
+    background-color: rgb(126, 126, 117);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: rgb(126, 126, 117);
+    padding: 20px 50px;
+}
+
+.about {
+    background-color: rgb(182, 182, 169);
+    padding: 20px 50px;
+}
+
+.articles {
+    background-color: rgb(196, 199, 181);
+    padding: 20px 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: overline;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.7rem;
+    text-indent: 50px;
+}
+
+p::first-line {
+    letter-spacing: 2px;
+}
+
+li {
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-about {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+ol {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+.page-facts li {
+    text-align: left;
+}
+
+.content {
+    padding: 20px 50px;
+}
+
+a:link {
+    color: rgb(70, 65, 55)
+}
+
+a:visited {
+    color: rgb(94, 71, 7);
+}
+
+a:focus {
+    color: rgb(160, 49, 49)
+}
+
+a:hover {
+    color: rgb(167, 120, 39)
+}
+
+dl {
+    font-size: 20px;
+}
+
+dd {
+    padding-left: 40px;
+}
+
+.table-example {
+    border-collapse: collapse;
+    color: white;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}
+
+.table-example tr {
+    color: black;
+}
+
+.table-example td {
+    color: white;
+}
+
+.page-list li:nth-child(2n+1) {
+    background-color: rgb(231, 230, 213);
+}
+
+.interest-fact::after {
+    content: " <- ВАЖНО!";
+    color: rgb(209, 6, 6);
+    font-weight: bolder;
+}
+
+.page-list {
+    border: solid rgb(131, 130, 121);
+}
+
+.page-facts li:lang(en) {
+    font-family: monospace;
+    color: rgb(226, 226, 226);
+}
+
+.li #articles {
+    color: red;
+}
+
+#form-example {
+    width: 8%;
+    margin: 0 auto;
+}
+
+.p1 p {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.p2 p {
+    color: white;
+}
+
+.img-brush {
+    border: solid white;
+}
+
+.fig {
+    margin-top: 30px;
+}
